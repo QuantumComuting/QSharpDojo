@@ -3,7 +3,7 @@
 This is the first section of the tutorial. The contents are :
 - [x] HelloWorld
 - [x] X-Gate
-- [ ] Y-Gate
+- [x] Y-Gate
 - [ ] Z-Gate
 - [ ] H-Gate
 - [ ] S-Gate
