@@ -6,6 +6,6 @@ This is the first section of the tutorial. The contents are :
 - [x] Y-Gate
 - [x] Z-Gate
 - [x] H-Gate
-- [ ] S-Gate
+- [x] S-Gate
 - [ ] CNOT-Gate
 - [ ] Tensor Product
