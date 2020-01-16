@@ -11,7 +11,7 @@
             DumpMachine();
             Y(qubit);
             Message("Value after applying Y Gate");
-            DumpMachine();
+            DumpMachine();            
         }
     }
 }

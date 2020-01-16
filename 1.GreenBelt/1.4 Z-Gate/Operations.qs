@@ -2,8 +2,17 @@
 {
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
+    open Microsoft.Quantum.Diagnostics;
 
     operation HelloQ () : Unit {
-        Message("Hello quantum world!");
+        using (qubit = Qubit()){
+            H(qubit);
+            Message("Value before applying Z Gate");
+            DumpMachine();
+            Z(qubit);
+            Message("Value after applying Z Gate");
+            DumpMachine();
+            Reset(qubit);
+        }
     }
 }
