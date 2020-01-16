@@ -7,5 +7,5 @@ This is the first section of the tutorial. The contents are :
 - [x] Z-Gate
 - [x] H-Gate
 - [x] S-Gate
-- [ ] CNOT-Gate
+- [x] CNOT-Gate
 - [ ] Tensor Product
